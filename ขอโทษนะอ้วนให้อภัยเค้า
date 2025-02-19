@@ -1,0 +1,56 @@
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ขอโทษนะอ้วน</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffebf0;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 500px;
+        }
+        h1 {
+            color: #ff4081;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .heart {
+            font-size: 50px;
+            color: red;
+        }
+        button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ขอโทษนะอ้วน 💕</h1>
+        <p>เค้าเสียใจจริง ๆ กับสิ่งที่เกิดขึ้น และเค้าอยากให้คุยกันให้เข้าใจ</p>
+        <p>อ้วนคือคนสำคัญที่สุดของเค้า เค้ารักอ้วนมากนะ ❤️</p>
+        <div class="heart">❤️❤️❤️</div>
+        <button onclick="alert('ฉันรักเธอนะ 💖')">ให้อภัยเค้านะ</button>
+    </div>
+</body>
+</html>
